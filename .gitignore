@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+coverage/
+.next/
+.turbo/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Logs and local state
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# Test and tool artifacts
+playwright-report/
+test-results/
